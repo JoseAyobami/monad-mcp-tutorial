@@ -173,6 +173,12 @@ Here's the final result
 
 ![final result](/static/final_result.gif)
 
+- **@JoseAyobami**  
+  - Set up and configured the MCP server for Monad testnet
+  - Integrated MON balance tool and HTTP endpoint
+  - Added Claude Desktop integration instructions
+  - Improved deployment and troubleshooting documentation
+
 ## Further Resources
 
 - [Model Context Protocol Documentation](https://modelcontextprotocol.io/introduction)
