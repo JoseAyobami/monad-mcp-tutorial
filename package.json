@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "monad-mcp-tutorial",
   "version": "1.0.0",
   "main": "index.js",
@@ -6,8 +7,9 @@
     "monad-mcp-tutorial": "./bin/monad-mcp-tutorial.js"
   },
   "scripts": {
+    "start": "node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && chmod 755 build/index.js"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +19,7 @@
     "@modelcontextprotocol/sdk": "^1.7.0",
     "axios": "^1.8.2",
     "typescript": "^5.8.2",
-    "viem": "^2.23.10",
+    "viem": "^2.31.6",
     "zod": "^3.24.2"
   },
   "devDependencies": {
